@@ -1,0 +1,37 @@
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carouselSlide {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .carouselButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .carouselButton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carouselButton:first-child {
+    left: 10px;
+  }
+  
+  .carouselButton:last-child {
+    right: 10px;
+  }
