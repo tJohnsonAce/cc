@@ -42,7 +42,7 @@ const Services: React.FC = () => {
         <h2 className="text-4xl font-bold mb-12 text-center text-white">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (
-            <div key={service.id} className="bg-gray-800 bg-opacity-50 rounded-lg p-6 transition duration-300 hover:transform hover:scale-105 hover:shadow-lg">
+            <div key={service.id} className="bg-slate-700 bg-opacity-50 rounded-lg p-6 transition duration-300 hover:transform hover:scale-105 hover:shadow-lg">
               <div className="bg-gray-700 bg-opacity-50 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <service.Icon size={32} className="text-light-brown" />
               </div>

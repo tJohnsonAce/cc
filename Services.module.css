@@ -4,7 +4,7 @@
   }
   
   .serviceCard {
-    background-color: rgba(45, 55, 72, 0.7); /* slightly transparent gray-800 */
+    background-color: rgba(0, 73, 199, 0.7); /* slightly transparent gray-800 */
     border-radius: 8px;
     padding: 2rem;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
