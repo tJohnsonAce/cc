@@ -1,0 +1,28 @@
+.services {
+    background: linear-gradient(to bottom, #1a202c, #2d3748);
+    padding: 4rem 0;
+  }
+  
+  .serviceCard {
+    background-color: rgba(45, 55, 72, 0.7); /* slightly transparent gray-800 */
+    border-radius: 8px;
+    padding: 2rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+  }
+  
+  .serviceCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .iconWrapper {
+    background-color: rgba(74, 85, 104, 0.7); /* slightly transparent gray-600 */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+  }
